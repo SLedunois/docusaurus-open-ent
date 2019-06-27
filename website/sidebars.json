@@ -1,0 +1,24 @@
+{
+  "docs": {
+    "Documentation": ["SUMMARY"],
+    "Architecture": ["architecture/building-philosophy", "architecture/schema", "architecture/schemas"],
+    "Development": [
+      "contribution",
+      {
+        "type": "subcategory",
+        "label": "Back",
+        "ids": [
+          "dev/back/cas-registered-service",
+          "dev/back/class-admin"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Front",
+        "ids": [
+          "dev/front/index"
+        ]
+      }
+    ]
+  }
+}

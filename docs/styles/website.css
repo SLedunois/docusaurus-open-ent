@@ -1,0 +1,19 @@
+.admonitionblock {
+    font-weight : bold;
+    font-style : italic;
+}
+
+.admonitionblock td.icon div.title { 
+    font-size: 1.3em; 
+    color: #fff;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    border-radius: 25px;
+    line-height: 25px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.admonitionblock.note td.icon div.title { background-color : #00f; }
+.admonitionblock.warning td.icon div.title { background-color : #f00; }
