@@ -41,6 +41,7 @@ const siteConfig = {
     {doc: 'SUMMARY', label: 'Docs'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    {href: '/test-documentation/documentation', label: 'Documentation CSS', target: '_blank'}
   ],
 
   // If you have users set above, you add it here:
@@ -78,6 +79,7 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
   },
+  wrapPagesHTML: true,
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
@@ -86,6 +88,9 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
+  separateCss: [
+    'static/documentation'
+  ],
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
