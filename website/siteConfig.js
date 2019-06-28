@@ -40,7 +40,8 @@ const siteConfig = {
   headerLinks: [
     {doc: 'SUMMARY', label: 'Docs'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'}
+    {blog: true, label: 'Blog'},
+    {page: 'framework-css', label: 'Documentation CSS'}
   ],
 
   // If you have users set above, you add it here:
@@ -87,9 +88,6 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
-  separateCss: [
-    'static/documentation'
-  ],
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
